@@ -9,7 +9,7 @@ docker pull bboysoul/kube-proxy:v1.10.3
 docker pull bboysoul/kube-scheduler:v1.10.3
 docker pull bboysoul/pause:3.1
 
-docker tag bboysoul/coredns:1.0 coredns/coredns:1.0.6
+docker tag bboysoul/coredns:1.0.6 coredns/coredns:1.0.6
 docker tag bboysoul/etcd:3.1.12 k8s.gcr.io/etcd-amd64:3.1.12
 docker tag bboysoul/k8s-dns-dnsmasq-nanny:1.14.8 k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.8
 docker tag bboysoul/k8s-dns-kube-dns:1.14.8 k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.8
